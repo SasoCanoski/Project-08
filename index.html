@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bikes</title>
+    <meta name="keywords" content="html,css,javaScript" />
+    <meta name="description" content="Bikes" />
+    <meta name="Saso Canoski" content="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- Latest compiled and minified BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="./starter-files/css/style.css" />
+
+    <!-- Font-awesome 5 cdn -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- start here -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid con-flu">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="#"><img class="nav-img" src="./starter-files/img/logo.png" alt="" /></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav ul-1">
+            <li class="font-weight-bold">
+              <a href="#"
+                ><strong>HOME</strong> <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li>
+              <a href="#"><strong>BIKES</strong></a>
+            </li>
+            <li>
+              <a href="#"><strong>GEAR</strong></a>
+            </li>
+            <li>
+              <a href="#"><strong>PARTS</strong></a>
+            </li>
+            <li>
+              <a href="#"><strong>TIRES</strong></a>
+            </li>
+            <li>
+              <a href="#"><strong>SERVICE-INFO</strong></a>
+            </li>
+            <li>
+              <a href="#"><strong>CATALOGUES</strong></a>
+            </li>
+            <li>
+              <a href="#"><strong>CONTACT</strong></a>
+            </li>
+          </ul>
+          <i class="fas fa-search"></i>
+          <i class="fas fa-lock"></i>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid con-fl1">
+      <div class="row row1">
+        <div class="col-md-12 md12">
+          <h1>Bikes</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2" id="left">
+          <h3 class="h3"><strong>Filter by:</strong></h3>
+          <p class="btnAll p1 color1">
+            Show all
+          </p>
+          <span class="color2" id="all"></span>
+          <hr />
+          <h3><strong>Gender</strong></h3>
+          <p class="btnMale p1">Male</p>
+          <span id="male"></span>
+          <p class="btnFemale p1">Female</p>
+          <span id="female"></span>
+          <hr />
+          <h3><strong>Brand</strong></h3>
+          <p class="p1">LE GRAND BIKES</p>
+          <span id="grand"></span>
+          <p class="p1">KROSS</p>
+          <span id="kross"></span>
+          <p class="p1">EXPLORER</p>
+          <span id="explorer"></span>
+          <p class="p1">VISITOR</p>
+          <span id="visitor"></span>
+          <p class="p1">PONY</p>
+          <span id="pony"></span>
+          <p class="p1">FORCE</p>
+          <span id="force"></span>
+          <p class="p1">E-BIKES</p>
+          <span id="eBike"></span>
+          <p class="p1">IDEAL</p>
+          <span id="ideal"></span>
+        </div>
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-12 col12" id="right"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row last-r">
+        <div class="col-md-3">
+          <h3>Social Share</h3>
+          <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+        <div class="col-md-3 col3">
+          <h2>Event info</h2>
+          <p>Enter Now</p>
+          <p>Event Info</p>
+          <p>Course Maps</p>
+          <p>Race Packs</p>
+          <p>Results</p>
+          <p>FAQs</p>
+          <p>Am I Registered ?</p>
+        </div>
+        <div class="col-md-3 col3">
+          <h3>Registration</h3>
+          <p>Volunteers</p>
+          <p>Gallery</p>
+          <p>Press</p>
+          <p>Results</p>
+          <p>Privacy Policy</p>
+          <p>Service Plus</p>
+          <p>Contacts</p>
+        </div>
+        <div class="col-md-3 col3">
+          <h3>Schedule</h3>
+          <p>Galery</p>
+          <p>About</p>
+          <p>Videos</p>
+          <p>Results</p>
+          <p>FAQs</p>
+          <p>Results</p>
+          <p>Volunteers</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="./starter-files/js/main.js"></script>
+  </body>
+</html>
